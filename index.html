@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXP PDF</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-sections">
+        <div class="left-header flex-col">
+          <div class="header-title">
+            <b>Eagle</b> Carports
+            <img src="" alt="logo" />
+          </div>
+          <div class="address flex-col">
+            <b>210 Airport Rd. Mt. Airy, NC 27030</b>
+            <div>
+              <span><b>Toll:</b>800.579.8589</span>
+              <span><b>Fax:</b>336.719.2091</span>
+            </div>
+            <p>Order submittal to orders@eaglecarports.com</p>
+          </div>
+        </div>
+
+        <div>
+          <h1 class="header-title right">
+            Order Form
+            <span>v.12</span>
+          </h1>
+        </div>
+      </div>
+
+      <div class="header-sections right">
+        <div class="small-table">
+          <div class="table-title">
+            <p><span>A</span>uthorized</p>
+            <p><span>D</span>ealer</p>
+          </div>
+          <div class="rows">
+            <div class="row">
+              <span>Dealer ID</span> <input type="text" class="input" />
+            </div>
+            <div class="row">
+              <span>Dealer Name</span> <input type="text" class="input" />
+            </div>
+            <div class="row">
+              <span>Phone Number</span> <input type="text" class="input" />
+            </div>
+            <div class="row">
+              <span>Order Date</span> <input type="text" class="input" />
+            </div>
+          </div>
+        </div>
+        <div class="small-table right-table">
+          <div class="table-title">
+            <p><span>S</span>hip</p>
+            <p><span>T</span>o</p>
+          </div>
+          <div class="rows">
+            <div class="row">
+              <span>Name </span> <input type="text" class="input" />
+            </div>
+            <div class="row">
+              <span>Install Address </span>
+              <input type="text" class="input" />
+            </div>
+            <div class="row grid-cols-3">
+              <div class="row">
+                <span>City</span> <input type="text" class="input" />
+              </div>
+              <div class="select-field">
+                <span>State</span>
+                <select>
+                  <option value="Select One" disabled selected>
+                    Select One
+                  </option>
+                  <option value="Ar">Arizona</option>
+                  <option value="Ar">Arizona</option>
+                  <option value="Ar">Arizona</option>
+                </select>
+              </div>
+              <div class="row zip-code">
+                <span>Zip Code</span> <input type="text" class="input" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="row">
+                <span>County</span> <input type="text" class="input" />
+              </div>
+              <div class="row">
+                <span>Email</span> <input type="text" class="input" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="row">
+                <span>Cell #</span> <input type="text" class="input" />
+              </div>
+              <div class="row">
+                <span>Phone</span> <input type="text" class="input" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="building-tables">
+      <div class="small-table">
+        <div class="table-title">
+          <p><span>B</span>UILDING</p>
+          <p><span>I</span>NFO</p>
+        </div>
+        <div class="rows">
+          <div class="select-field">
+            <span>ROOF STYLE</span>
+            <select>
+              <option value="Select One" disabled selected>Select One</option>
+              <option value="Vertical Roof">Vertical Roof</option>
+              <option value="Boxed Eave">Boxed Eave</option>
+              <option value="Regular">Regular</option>
+            </select>
+          </div>
+          <div class="select-field">
+            <span>BUILDING TYPE</span>
+            <select>
+              <option value="Select One" disabled selected>Select One</option>
+              <option value="Carport">Carport</option>
+              <option value="Boxed Eave">Boxed Eave</option>
+              <option value="Regular">Regular</option>
+            </select>
+          </div>
+          <div class="row">
+            <span>FRAMING GAUGE</span>
+            <div class="row radio-btns">
+              <div>
+                <input type="radio" id="14GA" name="14GA" />
+                <label for="14GA">14 G<span class="sub">A</span></label>
+              </div>
+              <div>
+                <input type="radio" id="12GA" name="12GA" />
+                <label for="12GA">12 G<span class="sub">A</span></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="small-table">
+        <div class="table-title">
+          <p><span>S</span>IZE</p>
+        </div>
+        <div class="size-fields">
+          <div class="field">
+            <div>
+              <input type="text" class="input" />
+            </div>
+            <span>WIDTH</span>
+          </div>
+          <span class="x">X</span>
+          <div class="field">
+            <div>
+              <input type="text" class="input" />
+            </div>
+            <span>FRAME LENGTH</span>
+          </div>
+          <span class="x">X</span>
+          <div class="field">
+            <div>
+              <input type="text" class="input" />
+            </div>
+            <span>HEIGHT</span>
+          </div>
+        </div>
+      </div>
+      <div class="small-table">
+        <div class="table-title">
+          <p><span>C</span>OLOR</p>
+        </div>
+        <div class="rows">
+          <div class="select-field">
+            <span>ROOF</span>
+            <select>
+              <option value="Select One" disabled selected>Select One</option>
+              <option value="Vertical Roof">Vertical Roof</option>
+              <option value="Boxed Eave">Boxed Eave</option>
+              <option value="Regular">Regular</option>
+            </select>
+          </div>
+          <div class="select-field">
+            <span>SIDES/ENDS</span>
+            <select>
+              <option value="N/A" disabled selected>N/A</option>
+              <option value="Carport">Carport</option>
+              <option value="Boxed Eave">Boxed Eave</option>
+              <option value="Regular">Regular</option>
+            </select>
+          </div>
+          <div class="select-field">
+            <span>TRIM</span>
+            <select>
+              <option value="Select One" disabled selected>Select One</option>
+              <option value="Vertical Roof">Vertical Roof</option>
+              <option value="Boxed Eave">Boxed Eave</option>
+              <option value="Regular">Regular</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="small-table">
+        <div class="table-title">
+          <p><span>A</span>nchoring &</p>
+          <p><span>R</span>ating</p>
+        </div>
+        <div class="rows">
+          <div class="row">
+            <span>INSTALLATION SURFACE</span>
+            <input type="text" class="input" />
+          </div>
+          <div class="row">
+            <span>GROUND ANCHOR</span>
+            <div class="row radio-btns">
+              <div>
+                <input type="radio" id="YES" name="YES" />
+                <label for="YES">YES</label>
+              </div>
+              <div>
+                <input type="radio" id="NO" name="NO" />
+                <label for="NO">NO</label>
+              </div>
+            </div>
+          </div>
+          <div class="select-field">
+            <span>WIND/SNOW RATING</span>
+            <select>
+              <option value="None" disabled selected>None</option>
+              <option value="Vertical Roof">Vertical Roof</option>
+              <option value="Boxed Eave">Boxed Eave</option>
+              <option value="Regular">Regular</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="lots">
+      <p class="lots-header">
+        lot must be level, no more than 3” off-level, and clear of obstacles or
+        unit may not be installed. eagle carports, inc. is not responsible for
+        stopping or repairing leaks under base rails.
+      </p>
+      <div class="lots-body">
+        <p>
+          Customers may incur extra labor fees if additional labor is required
+          to install unit because of un-level surfaces, or for building over
+          obstacles. Furthermore, inability of installation due to before
+          mentioned circumstances could result in restocking fee
+        </p>
+        <div class="lots-table">
+          <div class="lots-row">
+            <div class="lots-cell">
+              <span>READY FOR INSTALLATION?</span>
+              <div class="row radio-btns">
+                <div>
+                  <input
+                    type="radio"
+                    id="read-for-inst-yes"
+                    name="read-for-inst-yes"
+                  />
+                  <label for="read-for-inst-yes">YES</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    id="read-for-inst-no"
+                    name="read-for-inst-no"
+                  />
+                  <label for="read-for-inst-no">NO</label>
+                </div>
+              </div>
+            </div>
+            <div class="lots-cell">
+              <span>IS YOUR SURFACE LEVEL?</span>
+              <div class="row radio-btns">
+                <div>
+                  <input type="radio" id="suface-yes" name="suface-yes" />
+                  <label for="suface-yes">YES</label>
+                </div>
+                <div>
+                  <input type="radio" id="suface-no" name="suface-no" />
+                  <label for="suface-no">NO</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="lots-row">
+            <div class="lots-cell">
+              <p><b>NOTE: FRAMES ARE 5’ ON CENTER</b></p>
+              <p>Ex: 20’, 25’, 30’, etc.</p>
+            </div>
+            <div class="lots-cell">
+              <span>ELECTRICITY AVAILABLE?</span>
+              <div class="row radio-btns">
+                <div>
+                  <input
+                    type="radio"
+                    id="electricity-yes"
+                    name="electricity-yes"
+                  />
+                  <label for="electricity-yes">YES</label>
+                </div>
+                <div>
+                  <input
+                    type="radio"
+                    id="electricity-no"
+                    name="electricity-no"
+                  />
+                  <label for="electricity-no">NO</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="items-table">
+      <div class="large-table">
+        <div class="table-header">
+          <div class="table-title">
+            <p><span>D</span>escription</p>
+          </div>
+          <div class="table-title">
+            <p><span>Q</span>ty</p>
+          </div>
+          <div class="table-title">
+            <p><span>U</span>nit</p>
+            <p><span>P</span>rice</p>
+          </div>
+          <div class="table-title">
+            <p><span>P</span>rice</p>
+          </div>
+        </div>
+        <div class="table-body" id="items-body">
+          <div class="large-row">
+            <div class="large-cell">
+              <input type="text" class="input" />
+            </div>
+            <div class="large-cell">
+              <input type="text" class="input" />
+            </div>
+            <div class="large-cell">
+              <input type="text" class="input" />
+            </div>
+            <div class="large-cell">
+              <input type="text" placeholder="$ 0.00" class="input" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="totals">
+        <div class="table-title">
+          <p><span>T</span>otals</p>
+        </div>
+        <div class="totals-body">
+          <div class="total">
+            <div class="total-cell">SUBTOTAL</div>
+            <div class="total-cell">$ 0.00</div>
+          </div>
+          <div class="total">
+            <div class="total-cell left-input">
+              <span>TAX +</span>
+              <div>
+                <input type="text" placeholder="0.00" class="input" />
+                %
+              </div>
+            </div>
+            <div class="total-cell">$ 0.00</div>
+          </div>
+          <div class="total">
+            <div class="total-cell">PRICE</div>
+            <div class="total-cell">$ 0.00</div>
+          </div>
+          <div class="total">
+            <div class="total-cell left-input">
+              <span>DOWN PAYMENT</span>
+              <div>
+                <input type="text" placeholder="0.00" class="input" />
+                %
+              </div>
+            </div>
+            <div class="total-cell right-input">
+              <input type="text" placeholder="$ 0.00" class="input" />
+            </div>
+          </div>
+          <div class="total">
+            <div class="total-cell">
+              DISCOUNT
+              <p>IF APPLICABLE</p>
+            </div>
+            <div class="total-cell right-input">
+              <input type="text" placeholder="$ 0.00" class="input" />
+            </div>
+          </div>
+          <div class="total">
+            <div class="total-cell">TOTAL DOWN PAYMENT</div>
+            <div class="total-cell">$ 0.00</div>
+          </div>
+          <div class="total">
+            <div class="total-cell">ADDITIONAL FEES</div>
+            <div class="total-cell right-input">
+              <input type="text" placeholder="$ 0.00" class="input" />
+            </div>
+          </div>
+          <div class="total">
+            <div class="total-cell">BALANCE DUE</div>
+            <div class="total-cell">$ 0.00</div>
+          </div>
+          <div class="total">
+            <div class="total-cell">CARD BALANCE DUE</div>
+            <div class="total-cell">$ 0.00</div>
+          </div>
+          <div class="payments">
+            <p>No Cash Payments Accepted</p>
+            <span>No Card Fee in:</span>
+            <span>CO, KS, OK, & TX</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="purchaser-table">
+      <div class="table-title">
+        <p><span>P</span>urchaser</p>
+        <p><span>A</span>greement</p>
+        (
+        <p><span>S</span>ee reverse side for terms and conditions</p>
+        )
+      </div>
+      <div class="purchaser-body">
+        <div class="left-purchaser">
+          <p>
+            Eagle Carports, Inc. reserves the right to correct any
+            balance/pricing errors. Eagle Carports, Inc. holds the right to
+            repossess any buildings not paid in full upon installation. A labor
+            charge will be added for any additional labor such as cutting posts
+            to level carports, building over objects such as RV’s & moving
+            materials to remote locations, etc... Customer is responsible for
+            pulling permits. Customer understands that all building frames are
+            1’ shorter than roof lengths.
+          </p>
+          <div>
+            <p>
+              By signing this agreement, customer understands and agrees with
+              all terms and conditions found on both the front and back of this
+              document.
+            </p>
+            <div class="left-purchaser-inputs">
+              <div class="purchaser-input">
+                <p>Customer Signature</p>
+                <span></span>
+              </div>
+              <div class="purchaser-input">
+                <p>Date</p>
+                <input type="text" class="input" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <p>
+              With customer present at time of installation, customer will sign
+              below to signify acceptance of unit as installed.
+            </p>
+            <div class="left-purchaser-inputs">
+              <div class="purchaser-input">
+                <p>Customer Signature</p>
+                <span class=""></span>
+              </div>
+              <div class="purchaser-input">
+                <p>Date</p>
+                <input type="text" class="input" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-purchaser">
+          <div class="right-row">
+            <p>Office Use:</p>
+            <div class="purchaser-radio-btns">
+              <div class="row radio-btns">
+                <div>
+                  <input type="radio" id="CREDIT CARD" name="CREDIT CARD" />
+                  <label for="CREDIT CARD">CREDIT CARD</label>
+                </div>
+                <div>
+                  <input type="radio" id="MONEY ORDER" name="MONEY ORDER" />
+                  <label for="MONEY ORDER">MONEY ORDER</label>
+                </div>
+              </div>
+              <div class="row radio-btns">
+                <div>
+                  <input
+                    type="radio"
+                    id="CASHIER’S CHECK"
+                    name="CASHIER’S CHECK"
+                  />
+                  <label for="CASHIER’S CHECK">CASHIER’S CHECK</label>
+                </div>
+                <div>
+                  <input type="radio" id="OTHER" name="OTHER" />
+                  <label for="OTHER">OTHER</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-row">
+            <p>Installer Signature:</p>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="purchaser-info">
+      <div class="table-title">
+        <p><span>P</span>urchaser</p>
+        <p><span>A</span>greement</p>
+      </div>
+      <div class="purchaser-info-body">
+        <div class="info-body-left">
+          <p class="info-title">Prices, Payment and Risk of Loss</p>
+          <div class="info-paragraphs">
+            <div>
+              a.) Prices contained in Seller’s published price lists, if any,
+              are subject to change without notice. Prices in individual written
+              quotations or proposals are firm only for a period of (30) days
+              from the date of the quotation after which Buyer should inquire of
+              Seller as to their validity and request a written confirmation or
+              revision. Prices do not include taxes. Buyer agrees to pay all
+              applicable sales or other taxes levied with respect to Goods (and
+              replacements) in the Agreement, unless exempt therefrom. All
+              prices are in United States dollars. Buyer shall pay all
+              government fees levied on the installation and inspection of the
+              Goods. Buyer shall pay upon receip
+            </div>
+
+            <div>
+              b.) All buildings are planned Risk Category 1 unless requested
+              otherwise by the customer.
+            </div>
+
+            <div>
+              c.) Eagle Carports, Inc. reserves the right to update or change
+              any pricing discrepancies made by dealer.
+            </div>
+
+            <div>
+              d.) Seller may unilaterally increase prices to cover increased
+              costs (plus reasonable overhead and profit) of design, materials,
+              and manufacturing required by changes requested by Buyer after the
+              date of any quotation. An additional labor charge will be added to
+              orders for buildings being installed over RVs, Campers, Large
+              Obstacles, Retaining Walls, Docks, Decks, Over Fences, etc
+            </div>
+
+            <div>
+              e.) Buyer may delay the delivery and installation for up to 60
+              days with no price increase. After 60 days the order is subject to
+              any price increase that arises. In no event will Eagle Carports,
+              Inc. be liable for any damage or consequential damages resulting
+              in any delay in delivery or installation of the unit. Average lead
+              times range from 2-8 weeks, once all required permits are
+              received, however this is not a guarantee.
+            </div>
+
+            <div>
+              f.) Customer expressly agrees that the carport/garage/barn/etc..
+              shall remain property of Eagle Carports, Inc. until payment is
+              made in full.
+            </div>
+
+            <div>
+              g.) Eagle Carports, Inc. hereby retains a purchase money security
+              interest in said building as set forth in Section 9 of the Uniform
+              Commercial Code as enacted in the state where building is being
+              installed. Failure to pay will result in repossession of unit.
+              This does not relieve the customer from liability for specific
+              performance of the contract including legal fees and court costs,
+              at the sellers expense.
+            </div>
+
+            <div>
+              h.) Balance due to be paid in FULL at time of completion of
+              building, to Eagle Carports, Inc. by Cashiers-check. Money Order,
+              Visa, Master Card, American Express, or Discover Card. NO PERSONAL
+              CHECKS, COMPANY CHECKS OR CASH PAYMENTS will be accepted.
+            </div>
+
+            <div>
+              i.) Eagle Carports holds the right to make any exceptions to the
+              above clause If payment is made in check and the check is returned
+              NSF, Buyer will be responsible for additional expenses incurred by
+              Seller as a result of the returned check. Seller reserves the
+              right to change additional fees as allowed by law for checks
+              returned NSF. These fees include a $35 service charge.
+            </div>
+
+            <div>
+              j.) Eagle Carports, Inc. will not be responsible for down payment
+              refunds. The independent dealer will have this responsibility if a
+              refund is legally due.
+            </div>
+
+            <div>
+              k.) Eagle Carports, Inc. reserves the right to cancel any order at
+              anytime.
+            </div>
+
+            <div>
+              l.) A restock fee of 5% or $150, whichever is more, will be added
+              for customer cancellations within 72 hours of installation date.
+              Restock fees will also be applicable to unprepared and unlevel
+              sites.
+            </div>
+            <div>
+              <p class="info-title">Delivery.</p>
+              Shipping and installation dated are estimated based on Seller’s
+              present engineering and manufacturing capacity and scheduling, and
+              may be revised by Seller upon receipt or scheduling of Buyer’s
+              order. All shipping dates are approximate and shall be computed
+              from the date of entry of the order on Seller’s books. All
+              shipping orders or acceptance, letter of credit, down payment, and
+              other conditions as specified in the Agreement, and of all
+              drawings, information and approvals necessary to provide the Goods
+              and to grant any credit proposed in the Agreement. Delivery dates
+              may be rescheduled due to bad weather conditions, installer
+              running behind, accidents, etc. Buyer agrees to give Seller up to
+              3 installation attempts to deliver said product.
+            </div>
+            <div>
+              <p class="info-title">Workmanship Warranty.</p>
+              All buildings have a 90 day workmanship warranty effective upon
+              day of installation (manufactured panels are warranted for 20
+              years assuming regular care and maintenance, - installation
+              workmanship is warranted for 90 days - vertical roofs are
+              warranted for 20 years). Any installation concern must be reported
+              within 30 days beginning the date of installation. Eagle Carports
+              Inc. is not liable for any damages as a result of any inclement
+              weather. Unlevel lots, and customer modifications will void said
+              warranty.
+            </div>
+            <div>
+              a.) Eagle Carports, Inc. strongly recommends buildings with frame
+              lengths longer than 30 foot to be vertical roofs to avoid possible
+              leaks and or rust in between seams. Buildings purchased with a
+              frame length of 30 foot or longer that do not have vertical roofs
+              will forfeit the 20 year limited warranty on paneling except in
+              states that allow delivery of seamless 36 foot paneling. 6”
+              overhang on front and back. Frame lengths are as follows: 21’=20’
+              Frame, 26’=25’ Frame, 31’=30’ and so on. Cement pad to match frame
+              length.
+            </div>
+            <div>
+              <p class="info-title">
+                Customer Responsible for Locating Underground Utilities.
+              </p>
+              It is the responsibility of the customer to provide the factory
+              approved independent contractor installers with the location of
+              any underground cables, gas lines, or other utilities. This may
+            </div>
+          </div>
+        </div>
+        <div class="info-body-right">
+          <div>
+            include contacting the utility company to request that the locations
+            of the underground utilities be marked. Eagle Carports, Inc. is not
+            responsible for any damage caused to underground utilities. Customer
+            agrees to indemnify and hold harmless Eagle Carports, Inc. from any
+            liability and costs, including attorney fees, for such damages.
+            Customer is responsible for obtaining building permits as needed for
+            installation.
+          </div>
+          <div>
+            <p class="info-title">Warranty Disclaimer.</p>
+            There are no warranties which extend beyond the description on the
+            face hereof. The warranties in this agreement are in lieu of all
+            other warranties express or implied, including without limitation,
+            any warranties of merchantability or fitness for a particular
+            purpose, which are expressly disclaimed. Buyer must have original
+            copy of this document at time of claim.
+          </div>
+          <div>
+            <p class="info-title">Limitation on Liability.</p>
+            In no event will seller be liable to buyer and/or any third parties
+            for any incidental damages. Consequential damages, special damages,
+            exemplary damages or labor charges, including without limitation
+            lost revenues and profits, even if it has been advised of the
+            possibility of such damages. Buyer must have original copy of this
+            document at time of claim.
+          </div>
+          <div>
+            <p class="info-title">Warranty Limited to Original Purchaser.</p>
+            This warranty extends only to the original purchaser of the product
+            warranted by this document. Buyer must have original copy of this
+            document at time of claim. Said warranty does not extend to
+            transferee owners of the product.
+          </div>
+          <div>
+            <p class="info-title">Exclusions and Limitations.</p>
+            Eagle Carports, Inc. does not warrant any products not installed and
+            anchored by a factory-approved installer utilizing a factory
+            approved anchoring system. Installation by anyone other than a
+            factory approved installer utilizing a factory approved system will
+            VOID your warranty. Damages from improper anchoring, strong winds,
+            snow or ice are not considered defects. Eagle Carports, Inc. does
+            not warrant or guarantee any product in snow or ice to prevent
+            collapse. Eagle Carports, Inc. does not warrant any temporary
+            anchoring systems (e.g. rebar) utilized by the customer, nor shall
+            Eagle Carports, Inc. be in any way responsible for damage caused by
+            the use of such temporary anchoring systems. Additionally, Eagle
+            Carports, Inc. does not warrant any damages caused to product
+            resulting from or after movement of the structure from the original
+            installation point.
+          </div>
+          <div>
+            <p class="info-title">Modification of Structure Voids Warranty.</p>
+            Any modification,
+            <p>addition, deletion, substitution, etc. to the
+              structure without express written design approval by Eagle Carports,
+              Inc. will VOID all warranties. Our products are designed and
+              specifically engineered to provide superior performance as
+              manufactured. Any changes to the design by the Buyer could
+              compromise the structural integrity of the unit.</p>
+          </div>
+          <div>
+            <p class="info-title block">Claims Procedure.</p>
+            a.) Eagle Carports, Inc. must have a reasonable opportunity to
+            inspect the claim and not begin any repairs prior to said inspection
+            or the terms of the warranty could be voided. Eagle Carports, Inc.
+            holds the right to require proof (e.g. photos), if needed, via
+            e-mail or mail before writing up any repairs and/or claim.
+          </div>
+          <div>
+            b.) Any claims beyond this document involving litigation or
+            arbitration will be disputed in the Surry County District Court.
+          </div>
+          <div>
+            <p class="info-title block">
+              Additional Terms, Conditions, Warranties etc.
+            </p>
+
+            a.) Lot must be level prior to installation, otherwise unit may be
+            installed ‘as is’ and any and all warranties will be void.
+          </div>
+          <div>
+            b.) Anchors - all units are secured with anchors that pass through
+            the base rail of the frame and into the ground (concrete, asphalt,
+            etc.). The base rail is affixed only to the installation surface
+            with those anchors and the buyer is aware of and understands and
+            agrees that he/she may experience water leakage under the baserail.
+          </div>
+          <div>
+            c.) Refunds - in the event buyer cancels the order, buyer will
+            receive no refund of the down payment. Specifically, there are NO
+            REFUNDS on special orders.
+          </div>
+          <div>
+            d.) The parties attest that this agreement is the complete and
+            exclusive statement of the agreement between the parties, and
+            supersedes all prior written or oral communications, representations
+            and agreements relating to the subject matter of this agreement. The
+            terms of this agreement, save and except the price term in the event
+            of a pricing error/change order, may be modified or amended by a
+            written instrument executed by the parties hereto.
+          </div>
+          <p class="terms">
+            I have read and completely understand the above terms and give my
+            approval of installation of the unit as described on the front page
+            of this document. <b>ALL TERMS ABOVE AGREED TO BY CUSTOMER.</b>
+          </p>
+          <div class="right-purchaser-inputs">
+            <div class="purchaser-input">
+              <p>Customer Signature</p>
+              <span class=""></span>
+            </div>
+            <div class="purchaser-input">
+              <p>Date</p>
+              <input type="text" class="input" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <p>© 2021 Copyright All Rights Reserved Eagle Carports Inc.</p>
+    </section>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
